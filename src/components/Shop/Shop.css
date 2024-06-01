@@ -25,3 +25,14 @@
     justify-content: space-between;
     align-items: center;
 }
+.pagination {
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination .selected {
+    background-color: orange;
+}
